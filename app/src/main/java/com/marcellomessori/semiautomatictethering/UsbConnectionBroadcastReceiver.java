@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.BatteryManager;
-import android.widget.Toast;
 
 public class UsbConnectionBroadcastReceiver extends BroadcastReceiver {
 
@@ -19,12 +18,10 @@ public class UsbConnectionBroadcastReceiver extends BroadcastReceiver {
         boolean usbCharge = chargePlug == BatteryManager.BATTERY_PLUGGED_USB;
 
         if (usbCharge) {
-            Toast.makeText(context, "USB Device Connected", Toast.LENGTH_LONG).show();
-
-                            Intent tetherSettings = new Intent();
-                tetherSettings.setClassName("com.android.settings", "com.android.settings.TetherSettings");
-                startActivity(tetherSettings);
-
+            Intent tetherSettings = new Intent();
+            tetherSettings.setClassName("com.android.settings", "com.android.settings.TetherSettings");
+            tetherSettings.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(tetherSettings);
         }
 
     }
