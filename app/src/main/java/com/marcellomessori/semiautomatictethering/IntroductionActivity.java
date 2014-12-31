@@ -66,9 +66,9 @@ public class IntroductionActivity extends Activity {
                     int mShortAnimTime;
 
                     @Override
-                    @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
+                    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
                     public void onVisibilityChange(boolean visible) {
-                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR2) {
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
                             // If the ViewPropertyAnimator API is available
                             // (Honeycomb MR2 and later), use it to animate the
                             // in-layout UI controls at the bottom of the
@@ -156,5 +156,9 @@ public class IntroductionActivity extends Activity {
     private void delayedHide(int delayMillis) {
         mHideHandler.removeCallbacks(mHideRunnable);
         mHideHandler.postDelayed(mHideRunnable, delayMillis);
+    }
+
+    public void closeActivity(View view) {
+        finish();
     }
 }

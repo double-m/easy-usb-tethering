@@ -32,7 +32,8 @@
             android:layout_gravity="center_horizontal|bottom"
             android:textSize="@dimen/intro_text_size"
             android:paddingLeft="@dimen/intro_text_size"
-            android:paddingRight="@dimen/intro_text_size" />
+            android:paddingRight="@dimen/intro_text_size"
+            android:onClick="closeActivity" />
     </FrameLayout>
 
 </FrameLayout>
