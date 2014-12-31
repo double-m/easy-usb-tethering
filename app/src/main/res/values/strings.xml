@@ -2,8 +2,10 @@
 <resources>
 
     <string name="app_name">Semi Automatic Tethering</string>
-    <string name="intro_gotit_button">Got it</string>
-    <string name="intro_gotit_content">Thank you for installing "Semi Automatic Tethering"\n\
+    <string name="intro_gotit_button">Got it!</string>
+    <string name="intro_gotit_content">
+        Thank you for installing \"Semi Automatic Tethering\".
+        \n\n
         Whenever your device il plugged, this app will open the tethering settings menu
         where you can activate the tethering or hotspot with just one click.
     </string>
