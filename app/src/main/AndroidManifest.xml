@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.marcellomessori.semiautomatictethering">
+    package="com.marcellomessori.easyusbtethering">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme">
         
         <activity
-            android:name=".IntroductionActivity"
+            android:name="com.marcellomessori.easyusbtethering.IntroductionActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
@@ -21,7 +21,7 @@
         </activity>
 
         <receiver
-            android:name=".UsbConnectionBroadcastReceiver"
+            android:name="com.marcellomessori.easyusbtethering.UsbConnectionBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

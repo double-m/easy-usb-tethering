@@ -1,4 +1,4 @@
-package com.marcellomessori.semiautomatictethering.util;
+package com.marcellomessori.easyusbtethering.util;
 
 import android.annotation.TargetApi;
 import android.app.Activity;

@@ -1,4 +1,4 @@
-package com.marcellomessori.semiautomatictethering;
+package com.marcellomessori.easyusbtethering;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

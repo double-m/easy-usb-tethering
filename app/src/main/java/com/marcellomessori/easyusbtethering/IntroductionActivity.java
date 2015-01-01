@@ -1,6 +1,6 @@
-package com.marcellomessori.semiautomatictethering;
+package com.marcellomessori.easyusbtethering;
 
-import com.marcellomessori.semiautomatictethering.util.SystemUiHider;
+import com.marcellomessori.easyusbtethering.util.SystemUiHider;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
