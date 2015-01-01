@@ -4,5 +4,4 @@
 /build/
 /app/build/
 .idea/
-/gradle*
 **/*.iml
