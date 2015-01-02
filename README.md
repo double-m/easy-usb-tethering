@@ -12,7 +12,7 @@ Eventually I decided to code mine in order to have exactly what I need:
 
 - the shortcut should be activated only after plugging to a device that needs data connection, not to a charger;
 - the source code should be open source (this is published on GitHub and released under GPLv3);
-- the memory space occupied on the target should be very small (here's about 70KB);
+- the memory space occupied in the target device should be very small (this app needs only 50KB);
 - and yes, I needed an excuse to publish my first Android app.
 
 ### Clone, modify and contribute
