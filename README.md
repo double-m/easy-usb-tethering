@@ -1,5 +1,7 @@
 ## Easy USB Tethering for Android
 
+[<img src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" alt="Get it on Google Play">](https://play.google.com/store/apps/details?id=com.marcellomessori.easyusbtethering)
+
 ### Why this app?
 
 I often connect to the Internet via USB tethering: life is too short to go to *Settings -> More...
