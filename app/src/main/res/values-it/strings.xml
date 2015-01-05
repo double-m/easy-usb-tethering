@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy USB Tethering</string>
+    <string name="intro_gotit_content">
+        Grazie per aver installato\n
+        \"Easy USB Tethering\".
+        \n\n
+        Ogni volta che il tuo dispositivo si connette ad un altro via USB, questa app apre
+        la pagina delle impostazioni dove potrai attivare il servizio di tethering o hotspot
+        con un semplice \"tap\".
+        \n\n
+        Per chiudere la pagina delle impostazioni, puoi usare il tasto "indietro".
+    </string>
+    <string name="intro_gotit_button">Va bene!</string>
+
+</resources>

@@ -2,12 +2,16 @@
 <resources>
 
     <string name="app_name">Easy USB Tethering</string>
-    <string name="intro_gotit_button">Got it!</string>
     <string name="intro_gotit_content">
-        Thank you for installing \"Easy USB Tethering\".
+        Thank you for installing\n
+        \"Easy USB Tethering\".
         \n\n
-        Whenever your device is plugged, this app will open the tethering settings menu
-        where you can activate the tethering or hotspot with just one click.
+        Whenever your device is plugged to another via USB, this app will open up the tethering
+        settings menu page where you can activate the tethering or hotspot service with just one
+        tap.
+        \n\n
+        To close the tethering settings menu page, you can use the back button.
     </string>
+    <string name="intro_gotit_button">Got it!</string>
 
 </resources>

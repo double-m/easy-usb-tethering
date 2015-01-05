@@ -8,7 +8,8 @@
          TextureView, etc. -->
     <TextView android:id="@+id/fullscreen_content" android:layout_width="match_parent"
         android:layout_height="match_parent" android:keepScreenOn="true"
-        android:textStyle="bold" android:textSize="@dimen/intro_text_size" android:gravity="center"
+        android:textSize="@dimen/intro_text_size" android:gravity="center"
+        android:paddingLeft="@dimen/intro_text_size" android:paddingRight="@dimen/intro_text_size"
         android:text="@string/intro_gotit_content" />
 
     <!-- This FrameLayout insets its children based on system windows using
@@ -33,7 +34,8 @@
             android:textSize="@dimen/intro_text_size"
             android:paddingLeft="@dimen/intro_text_size"
             android:paddingRight="@dimen/intro_text_size"
-            android:onClick="closeActivity" />
+            android:onClick="closeActivity"
+            android:enabled="true" />
     </FrameLayout>
 
 </FrameLayout>
