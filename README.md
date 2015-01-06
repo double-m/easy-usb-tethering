@@ -23,9 +23,21 @@ then specify
 [https://github.com/double-m/easy-usb-tethering.git](<https://github.com/double-m/easy-usb-tethering.git>)
 as "Vcs Repository URL".
 
-### Gradle vs Maven
+### Gradle or Maven
 
-If you prefer, there's a branch with a Maven version (Master's on Gradle).
+This is a native Gradle project, so you can execute:
+
+```
+user@linuxbox:/path/to/projectdir$ ./gradlew installDebug
+```
+
+I've added `pom.xml` and `app/pom.xml` so you can compile with Maven; just set
+`<properties><android.home>` and execute:
+
+```
+user@linuxbox:/path/to/projectdir$ mvn -pl app clean install android:redeploy android:run # opt1
+user@linuxbox:/path/to/projectdir/app$ mvn clean install android:redeploy android:run     # opt2
+```
 
 ### Tested on:
 
