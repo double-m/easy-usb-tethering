@@ -14,7 +14,7 @@ Eventually I decided to code mine in order to have exactly what I need:
 
 - activation only when USB plugging to a device that needs data connection and not in the case of a mere battery charger;
 - open source (this is published on GitHub and released under GPLv3);
-- a very small amount of memory required in the target device (only 50KB needed).
+- a very small amount of memory required in the target device (less than 50KB).
 
 ### Clone, modify and contribute
 
