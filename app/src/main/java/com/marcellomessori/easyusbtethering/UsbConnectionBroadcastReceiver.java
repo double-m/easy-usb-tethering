@@ -12,7 +12,7 @@ public class UsbConnectionBroadcastReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
 
         IntentFilter extraFilterToGetBatteryInfo = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
-        Intent extraIntentToGetBatteryInfo = context.registerReceiver(null, extraFilterToGetBatteryInfo);
+        Intent extraIntentToGetBatteryInfo = context.getApplicationContext().registerReceiver(null, extraFilterToGetBatteryInfo);
 
         int chargePlug = extraIntentToGetBatteryInfo.getIntExtra(BatteryManager.EXTRA_PLUGGED, -1);
         boolean usbCharge = chargePlug == BatteryManager.BATTERY_PLUGGED_USB;

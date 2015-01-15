@@ -43,3 +43,5 @@ user@linuxbox:/path/to/projectdir/app$ mvn clean install android:redeploy androi
 
 - Wiko Iggy (Android 4.2.2, Kernel 3.4.5),
 - Samsung Galaxy Tab 2 (GT-P3100, Android 4.2.2, Kernel 3.0.31).
+- Samsung Galaxy S5 (Android 4.4.2)
+- Galaxy S3 mini (GT-18190N, Android 4.1.2, Kernel 3.0.31)
