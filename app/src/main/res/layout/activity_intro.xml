@@ -21,9 +21,18 @@
         <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
             android:layout_width="match_parent" android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay" android:orientation="horizontal"
+            android:background="@color/black_overlay" android:orientation="vertical"
             tools:ignore="UselessParent">
-        </LinearLayout>
+
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+        </com.google.android.gms.ads.AdView>
 
         <Button
             android:layout_width="wrap_content"
@@ -36,6 +45,9 @@
             android:paddingRight="@dimen/intro_text_size"
             android:onClick="closeActivity"
             android:enabled="true" />
+
+        </LinearLayout>
+
     </FrameLayout>
 
 </FrameLayout>

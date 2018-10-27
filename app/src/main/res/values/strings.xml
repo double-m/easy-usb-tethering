@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Easy USB Tethering</string>
+    <string name="app_name">Automatic USB Tethering</string>
     <string name="intro_gotit_content">
         Thank you for installing\n
         \"Easy USB Tethering\".

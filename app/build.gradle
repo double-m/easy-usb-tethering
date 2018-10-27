@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 14
+    compileSdkVersion 28
     buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.marcellomessori.easyusbtethering"
         minSdkVersion 14
-        targetSdkVersion 14
+        targetSdkVersion 28
         versionCode 4
         versionName "1.1.2"
     }
@@ -21,4 +21,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.android.gms:play-services-ads:17.0.0'
+
 }
