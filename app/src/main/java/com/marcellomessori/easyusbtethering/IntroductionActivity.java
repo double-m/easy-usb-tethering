@@ -19,7 +19,7 @@ public class IntroductionActivity extends Activity {
         setContentView(R.layout.activity_intro);
         MobileAds.initialize(this,
                 "ca-app-pub-2413724092372090~4639103575");
-        mAdView = findViewById(R.id.adView);
+        mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
     }
